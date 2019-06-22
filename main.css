@@ -1,0 +1,112 @@
+@font-face{
+    font-family:'yekan';
+    src:url(fonts/BYekan.eot);src:url(fonts/BYekan.eot?#iefix) format("embedded-opentype"),
+url(fonts/BYekan.woff) format("woff"),url(fonts/BYekan.ttf) format("truetype")/*url(fonts/BYekan.svg#BYekan) format("svg")*/;
+    font-weight:normal;
+    font-style:normal
+}
+html{
+    direction: rtl;
+    font-family: 'yekan';
+}
+#mid{
+     margin: 15px auto 0 auto;
+    //background-color: darkgreen;
+    width: 1200px;
+    height: 300px;
+}
+#mid>#slider{
+    float: left;
+    width: 1200px;
+    height: 300px;
+    /*background-color:#FF9905;*/
+    /*margin: 15px auto;*/
+    position: relative;
+    overflow: hidden;
+}
+#mid>#slider>div{
+    float: left;
+    width: 1200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: 0;
+    top:0;
+    /*right: 0;*/
+    left: 0;
+    transition: all 2s;
+}
+#mid>#slider>div.btn{
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+    /*background-color: red;*/
+    /*position: absolute;*/
+    z-index: 10;
+    top: 185px;
+    background-position: center;
+    background-size: cover;
+}
+#mid>#slider>#next{
+    right: 15px;
+    background-image: url("icon/right.png");
+}
+#slider>#prev{
+    left:15px;
+    background-image: url("icon/left.png");
+}
+#mid>#slider>#slide1{
+    background-image: url("images/book1-min.jpg");
+    z-index: 3;
+
+}
+
+#mid>#slider>#slide2{
+    background-image: url("images/book2-min.jpg");
+    z-index: 4;
+    opacity: 1;
+}
+
+#mid>#slider>#slide3{
+    background-image: url("images/book3-min.jpg");
+    z-index: 2;
+}
+#mid>#slider>#slide4{
+    background-image: url("images/book4-min.jpg");
+    z-index: 1;
+}
+
+
+ #mid>#archive{
+     font-family: yekan;
+     width:300px;
+     background-color: #FF9905;
+     line-height: 700px;
+     float: right;
+
+ }
+ #mid>#archive>ul{
+     list-style-type: none;
+ }
+ #mid>#archive>ul>li{
+     line-height: 30px;
+     text-align: center;
+ }
+ #mid>#archive>ul>li>a{
+
+ }
+ #mid>hr{
+     color: darkgreen;
+ }
+
+#footer{
+    width: auto;
+    height: 100px;
+    background-color: #FF9905;
+    margin: 15px auto 0 auto ;
+    position: static;
+    z-index: 20;
+    line-height: 100px;
+    text-align: center;
+}

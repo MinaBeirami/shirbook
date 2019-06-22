@@ -1,0 +1,215 @@
+
+html{
+    direction: rtl;
+}
+#parent{
+    /*border: 10px solid #73AD21;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    width:450px;
+    height: 400px;
+    margin: 20px auto;
+    /*background-color: #0C9CE4;*/
+
+}
+
+#titr{
+    width:450px;
+    height: 50px;
+    font-family: 'yekan';
+    line-height: 50px;
+    margin:0 auto auto auto;
+}
+#titr>div{
+    width: 223px;
+    height: 50px;
+    border: none;
+    margin: 0;
+    font-family: 'yekan';
+    background-color: #ff8000;
+    float: right;
+    margin: auto;
+    transition: all .7s;
+}
+#titr>div:hover{
+    background-color: #006600;
+    color: #1A1A1A;
+}
+#titr>div>a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-family: 'yekan';
+    text-decoration: none;
+}
+#regForm{
+
+    margin: 0 auto 0 auto;
+    width:450px;
+    height: 400px;
+    opacity: 1;
+    top: 0;
+    /*z-index: 2;*/
+    /*position: absolute;*/
+    /*background-color: #FF9905;*/
+
+}
+
+#regForm>div{
+    width:450px;
+    height: 50px;
+    float: none;
+}
+#regForm>div:nth-child(1){
+    /*background-color: #277327;*/
+}
+#regForm>div>div{
+    float: right;
+    width:140px ;
+    height: 50px;
+    font-family: 'yekan';
+}
+
+#regForm>div>div:nth-child(2){
+    margin:0 5px 0 5px;
+    /*background-color: #0C9CE4;*/
+    width: 200px;
+    height: 40px;
+}
+#regForm>div>div:nth-child(2)>input{
+    width: 200px;
+    height: 40px;
+    box-shadow: none;
+}
+#regForm>div>div:nth-child(1){
+    /*margin:0 5px 0 5px;*/
+  /  background-color:#7C8A51;
+    width: 100px;
+}
+#regForm>div>div:nth-child(3){
+
+
+    /*margin:0 5px 0 5px;*/
+    /*background-color:#990000;*/
+}
+#regForm>div>div:nth-child(3)>span{
+    display: block;
+    line-height: 50px;
+    font-size: small;
+    text-align: center;
+}
+#regForm>div>div:nth-child(1),#regForm>div>div:nth-child(3)
+{
+    line-height: 30px;
+}
+
+/*#parent>#titr>#reg-btn:*/
+/*#regForm>#titr>label{*/
+    /*display:inline-block;*/
+    /*padding: auto;*/
+    /*width:700px;*/
+    /*height: 50px;*/
+    /*-webkit-transform:scale(1.5,1); !* Safari and Chrome *!*/
+    /*-moz-transform:scale(1,1); !* Firefox *!*/
+    /*-ms-transform:scale(2,1); !* IE 9 *!*/
+    /*-o-transform:scale(2,1); !* Opera *!*/
+    /*transform:scale(1,2); !* W3C *!*/
+
+/*}*/
+#regForm>div>div>input{
+    box-sizing: border-box;
+    width: 140px;
+    height: 25px;
+    line-height: 30px;
+    margin: 2.5px 10px 2.5px 10px;
+}
+#logInForm{
+
+    margin: 0px auto 0 auto;
+    width:450px;
+    height: 400px;
+    opacity: 1;
+    top: 0;
+    /*z-index: 1;*/
+    /*position: absolute;*/
+    /*background-color: #FF9905;*/
+
+}
+input[type=text]:focus {
+    background-color: #669966;
+    opacity: .4;
+    color: #1A1A1A;
+}
+input[type=password]:focus {
+    background-color: #669966;
+    opacity: .4;
+}
+#logInForm>div{
+    width:450px;
+    height: 50px;
+    float: none;
+}
+#parent>#logInForm>div:nth-child(1){
+    /*background-color: #277327;*/
+}
+#logInForm>div>div{
+    float: right;
+    width:140px ;
+    height: 50px;
+    font-family: 'yekan';
+}
+
+#logInForm>div>div:nth-child(2){
+    margin:0 5px 0 5px;
+    /*background-color: #0C9CE4;*/
+    width: 200px;
+    height: 40px;
+}
+#logInForm>div>div:nth-child(2)>input{
+    width: 200px;
+    height: 40px;
+}
+#logInForm>div>div:nth-child(1){
+    /*margin:0 5px 0 5px;*/
+/  background-color:#7C8A51;
+    width: 100px;
+}
+#logInForm>div>div:nth-child(3){
+
+
+    /*margin:0 5px 0 5px;*/
+    /*background-color:#990000;*/
+}
+#logInForm>div>div:nth-child(3)>span{
+    display: block;
+    line-height: 50px;
+    font-size: small;
+    text-align: center;
+}
+#logInForm>div>div:nth-child(1),#regForm>div>div:nth-child(3)
+{
+    line-height: 30px;
+}
+
+
+/*#parent>#titr>#reg-btn:*/
+/*#regForm>#titr>label{*/
+/*display:inline-block;*/
+/*padding: auto;*/
+/*width:700px;*/
+/*height: 50px;*/
+/*-webkit-transform:scale(1.5,1); !* Safari and Chrome *!*/
+/*-moz-transform:scale(1,1); !* Firefox *!*/
+/*-ms-transform:scale(2,1); !* IE 9 *!*/
+/*-o-transform:scale(2,1); !* Opera *!*/
+/*transform:scale(1,2); !* W3C *!*/
+
+/*}*/
+#logInForm>div>div>input{
+    box-sizing: border-box;
+    width: 140px;
+    height: 25px;
+    line-height: 30px;
+    margin: 2.5px 10px 2.5px 10px;
+}

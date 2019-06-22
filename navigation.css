@@ -1,0 +1,198 @@
+@font-face{
+    font-family:'yekan';
+    src:url(fonts/BYekan.eot);src:url(fonts/BYekan.eot?#iefix) format("embedded-opentype"),
+url(fonts/BYekan.woff) format("woff"),url(fonts/BYekan.ttf) format("truetype")/*url(fonts/BYekan.svg#BYekan) format("svg")*/;
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'iran_sans';
+    src:url('fonts/iran_sans.eot');src:url('fonts/iran_sans.eot?#iefix') format('embedded-opentype'),
+url('fonts/iran_sans.woff') format('woff'),url('fonts/iran_sans.ttf') format('truetype'),url('fonts/iran_sans.svg#iran_sans') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    direction: rtl;
+}
+.shadow {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+body{
+    width: 1200px;
+    margin: auto;
+    background-color:rgba(255,170,32,.5);
+}
+#tow{
+    width: 1200px;
+    height: 180px;
+    /*background-color: brown;*/
+}
+#tow>#section2{
+    width: 600px;
+    height: 130px;
+    float: right;
+    /*background-color: brown*/
+}
+#tow>#section2>#qs{
+    float: right;
+    direction: rtl;
+    font-family: yekan;
+    /*float:inherit;*/
+    color: black;
+    font-weight: bold;
+    /*background-color: #990000;*/
+    background-color: #277327;
+    width: 570px;
+    height: 75px;
+    border-radius: 5px;
+}
+#tow>#section2>#qs>hr{
+
+
+    font-family: yekan;
+    color: white;
+    text-align: right;
+}
+#sb{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+#sb>input[type=button]{
+    width: 50px;
+    height: 50px;
+    background-image: url("icon/right.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#tow>#section2>nav{
+    float: right;
+    width: 600px;
+    height:50px ;
+    margin: 0 auto 0 auto;
+    /*background-color: green;*/
+}
+
+#tow>#section2>nav>ul{
+    list-style-type: none;
+
+}
+#tow>#section2>nav>ul>li{
+    float:right;
+    /*width:145px;*/
+    /*height:50px;*/
+}
+#tow>#section2>nav>ul>li>div{
+    float:right;
+    width:145px;
+    height:40px;
+}
+
+#tow>#section2>nav>ul>li>div>a{
+    text-decoration: none;
+    display: block;
+    background-color: orange;
+    width:145px;
+    height:40px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    /*font-weight: bold;*/
+    transition: all 1s;
+    box-sizing: border-box;
+    font-family:'yekan';
+    float: right;
+}
+#tow>#section2>#nav>ul>li>div>a:hover{
+    background-color: green;
+    color: #000;
+}
+#tow>#section2>nav>ul>li>div:nth-child(2)
+{
+    margin: 0 5px 0 5px;
+}
+#tow>#section2>nav>ul>li>div:nth-child(4)
+{
+    margin: 0 5px 0 0;
+    padding: 0 auto auto auto ;
+}
+#tow>#section{
+    width: 600px;
+    height: 130px;
+    float: right;
+}
+#tow>#section>#pn{
+    width: 170px;
+    height: 75px;
+    /*background-color: darkblue;*/
+    color: black;
+    font-size:40px ;
+    font-family:'yekan';
+    float: left;
+}
+#tow>#section>#logo{
+    width: 100px;
+    height: 75px;
+    float: left;
+    /*background-color:orange;*/
+
+}
+
+#tow>#section>#logo>#pic{
+    transition: 3s;
+    position: absolute;
+    width: 100px;
+    height: 75px;
+    float: left;
+    padding: 0 200px 0 0;
+}
+#tow>#archive{
+    float: right;
+width: 1200px;
+    height: 50px;
+    background-color: #339933;
+    margin: 0 auto 0 auto;
+}
+#tow>#archive>ul>li{
+    list-style-type: none;
+    float: right;
+    /*background-color: #006600;*/
+    opacity: .7;
+    padding: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
+}
+#tow>#archive>ul>li>a{
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 5px ;
+    text-decoration: none;
+    /*background-color: lightseagreen;*/
+
+    font-family: 'yekan';
+    line-height: 40px;
+    text-align: center;
+    color: #1A1A1A;
+}
+input[type=text]{
+    width: 200px;
+    height:35px;
+    line-height: 70px;
+    font-family: 'yekan';
+}
+select{
+    width: 100px;
+    height:45px;
+    line-height: 70px;
+    font-family: 'yekan';
+}

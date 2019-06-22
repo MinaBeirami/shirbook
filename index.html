@@ -1,0 +1,149 @@
+<!doctype html> 
+<html>
+<head>
+	<title>شیر بوک</title>
+	<meta charset = "utf-8" />
+	<link href="main.css" rel="stylesheet" />
+    <link href="navigation.css" rel="stylesheet" />
+    <link href="uni.css" rel="stylesheet">
+    <meta name="keywords" content="کتاب,کتاب های دست دوم,کتاب فروشی,کتاب ارزان ,آگهی فروش کتاب"  />
+    <meta name="description" content=" سایت آگهی برای فروش کتاب های دست دوم و نایاب  " />
+</head>
+<body>
+<!--header of the web page-->
+<div id="tow">
+    <div id="section2">
+	<nav id="nav">
+		<ul>
+			<li>
+                <div>
+                    <a href="index.html">صفحه اصلی</a>
+                </div>
+                <div>
+                    <a href="register.html">عضویت | ورود</a>
+                </div>
+                <div>
+                    <a href="test.html">شیر بوک های من</a>
+                </div>
+
+                <div>
+				<a href="contact.html">ارتباط با ما </a>
+				</div>
+
+            </li>
+		</ul>
+	</nav>
+
+
+        <div id="qs">
+            <hr1>
+                سریع یاب
+            </hr1>
+
+            <form action="form.php" method="get">
+
+                <input type="text" name="bookname" placeholder="book name">
+
+                <select name="field" id="field" >
+                    <option selected="selected" value="triple dash">---</option>
+                    <option>دانشگاه</option>
+                    <option>عمومی</option>
+                    <option>اختصاصی</option>
+                    <option>PhD</option>
+                </select>
+
+                <select name="city" id="city" >
+                    <option selected="selected" value="triple dash">---</option>
+                    <option>---</option>
+                    <option>تهران</option>
+                    <option>اصفهان</option>
+                    <option>شیراز</option>
+                    <option>یزد</option>
+                    <option>کرمان</option>
+                    <option>بندرعباس</option>
+                    <option>آبادان</option>
+                    <option>بجنورد</option>
+                    <option>بیرجند</option>
+                    <option>اراک</option>
+
+                </select>
+
+                <div id="sb">
+                <input type="button" >
+                </div>
+            </form>
+
+        </div>
+    </div>
+	<!--contains a name and a logo-->
+	<div id="section">
+        <div id="pn">
+			شیر بوک
+		</div>
+        <div id="logo">
+            <img  src="images/lion-icon.png" id="pic" />
+        </div>
+        <div>
+            <br/>
+            <br/>
+            <br/>
+            <p>فرصت خواندن کتاب های بی استفادتان را با قیمت کمتر به دیگران بدهید!!!</p>
+        </div>
+	</div>
+
+    <div id="archive">
+        <ul>
+            <li>
+                <a href="uni.html">دانشگاه</a>
+            </li>
+            <li>
+                <a href="uni.html"> عمومی</a>
+            </li>
+            <li>
+                <a href="uni.html">اختصاصی</a>
+            </li>
+            <li>
+                <a href="uni.html">رمان</a>
+            </li>
+            <li>
+                <a href="uni.html">نمایشنامه</a>
+            </li>
+            <li>
+                <a href="uni.html">آموزشی</a>
+            </li>
+            <li>
+                <a href="uni.html">روانشناسی</a>
+            </li>
+            <li>
+                <a href="uni.html">تاریخی</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<!--mid of the web page contains a slider-->
+<div id="mid">
+	<div id="slider">
+
+       <div id="slide1">
+       </div>
+        <div id="slide2"></div>
+        <div id="slide3"></div>
+        <div id="slide4"></div>
+        <div id="next" class="btn" onclick="next()"></div>
+        <div id="prev" class="btn" onclick="prev()"></div>
+	</div>
+</div>
+
+
+
+<footer id="footer">
+        <span>تمامی حقوق سایت محفوظ می باشد.</span>
+</footer>
+
+<script src="slider-js.js"></script>
+</body>
+
+</html>
